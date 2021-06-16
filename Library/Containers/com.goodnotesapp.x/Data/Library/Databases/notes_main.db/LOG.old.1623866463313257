@@ -1,0 +1,203 @@
+2021/06/17-01:53:29.032385 16d117000 DB SUMMARY
+2021/06/17-01:53:29.032443 16d117000 CURRENT file:  CURRENT
+2021/06/17-01:53:29.032444 16d117000 IDENTITY file:  IDENTITY
+2021/06/17-01:53:29.032447 16d117000 MANIFEST file:  MANIFEST-001771 size: 602 Bytes
+2021/06/17-01:53:29.032448 16d117000 SST files in /Users/noelle/Library/Containers/com.goodnotesapp.x/Data/Library/Databases/notes_main.db dir, Total Num: 3, files: 001420.sst 001422.sst 001587.sst 
+2021/06/17-01:53:29.032449 16d117000 Write Ahead Log file in /Users/noelle/Library/Containers/com.goodnotesapp.x/Data/Library/Databases/notes_main.db: 001772.log size: 0 ; 
+2021/06/17-01:53:29.032450 16d117000                         Options.error_if_exists: 0
+2021/06/17-01:53:29.032451 16d117000                       Options.create_if_missing: 1
+2021/06/17-01:53:29.032451 16d117000                         Options.paranoid_checks: 1
+2021/06/17-01:53:29.032452 16d117000                                     Options.env: 0x1054619f0
+2021/06/17-01:53:29.032452 16d117000                                Options.info_log: 0x600001e15e50
+2021/06/17-01:53:29.032453 16d117000                Options.max_file_opening_threads: 16
+2021/06/17-01:53:29.032453 16d117000                              Options.statistics: 0x0
+2021/06/17-01:53:29.032454 16d117000                               Options.use_fsync: 0
+2021/06/17-01:53:29.032454 16d117000                       Options.max_log_file_size: 0
+2021/06/17-01:53:29.032455 16d117000                  Options.max_manifest_file_size: 1073741824
+2021/06/17-01:53:29.032455 16d117000                   Options.log_file_time_to_roll: 0
+2021/06/17-01:53:29.032456 16d117000                       Options.keep_log_file_num: 10
+2021/06/17-01:53:29.032456 16d117000                    Options.recycle_log_file_num: 0
+2021/06/17-01:53:29.032457 16d117000                         Options.allow_fallocate: 1
+2021/06/17-01:53:29.032457 16d117000                        Options.allow_mmap_reads: 0
+2021/06/17-01:53:29.032458 16d117000                       Options.allow_mmap_writes: 0
+2021/06/17-01:53:29.032458 16d117000                        Options.use_direct_reads: 0
+2021/06/17-01:53:29.032458 16d117000                        Options.use_direct_io_for_flush_and_compaction: 0
+2021/06/17-01:53:29.032459 16d117000          Options.create_missing_column_families: 0
+2021/06/17-01:53:29.032459 16d117000                              Options.db_log_dir: 
+2021/06/17-01:53:29.032460 16d117000                                 Options.wal_dir: /Users/noelle/Library/Containers/com.goodnotesapp.x/Data/Library/Databases/notes_main.db
+2021/06/17-01:53:29.032460 16d117000                Options.table_cache_numshardbits: 6
+2021/06/17-01:53:29.032461 16d117000                      Options.max_subcompactions: 1
+2021/06/17-01:53:29.032461 16d117000                  Options.max_background_flushes: -1
+2021/06/17-01:53:29.032462 16d117000                         Options.WAL_ttl_seconds: 0
+2021/06/17-01:53:29.032462 16d117000                       Options.WAL_size_limit_MB: 0
+2021/06/17-01:53:29.032463 16d117000             Options.manifest_preallocation_size: 4194304
+2021/06/17-01:53:29.032463 16d117000                     Options.is_fd_close_on_exec: 1
+2021/06/17-01:53:29.032464 16d117000                   Options.advise_random_on_open: 1
+2021/06/17-01:53:29.032464 16d117000                    Options.db_write_buffer_size: 0
+2021/06/17-01:53:29.032464 16d117000                    Options.write_buffer_manager: 0x6000033420a0
+2021/06/17-01:53:29.032465 16d117000         Options.access_hint_on_compaction_start: 1
+2021/06/17-01:53:29.032465 16d117000  Options.new_table_reader_for_compaction_inputs: 0
+2021/06/17-01:53:29.032466 16d117000           Options.random_access_max_buffer_size: 1048576
+2021/06/17-01:53:29.032466 16d117000                      Options.use_adaptive_mutex: 0
+2021/06/17-01:53:29.032467 16d117000                            Options.rate_limiter: 0x0
+2021/06/17-01:53:29.032467 16d117000     Options.sst_file_manager.rate_bytes_per_sec: 0
+2021/06/17-01:53:29.032468 16d117000                       Options.wal_recovery_mode: 2
+2021/06/17-01:53:29.032468 16d117000                  Options.enable_thread_tracking: 0
+2021/06/17-01:53:29.032477 16d117000                  Options.enable_pipelined_write: 0
+2021/06/17-01:53:29.032477 16d117000         Options.allow_concurrent_memtable_write: 1
+2021/06/17-01:53:29.032478 16d117000      Options.enable_write_thread_adaptive_yield: 1
+2021/06/17-01:53:29.032478 16d117000             Options.write_thread_max_yield_usec: 100
+2021/06/17-01:53:29.032479 16d117000            Options.write_thread_slow_yield_usec: 3
+2021/06/17-01:53:29.032479 16d117000                               Options.row_cache: None
+2021/06/17-01:53:29.032480 16d117000             Options.avoid_flush_during_recovery: 0
+2021/06/17-01:53:29.032480 16d117000             Options.allow_ingest_behind: 0
+2021/06/17-01:53:29.032481 16d117000             Options.preserve_deletes: 0
+2021/06/17-01:53:29.032481 16d117000             Options.two_write_queues: 0
+2021/06/17-01:53:29.032482 16d117000             Options.manual_wal_flush: 0
+2021/06/17-01:53:29.032482 16d117000             Options.atomic_flush: 0
+2021/06/17-01:53:29.032483 16d117000             Options.avoid_unnecessary_blocking_io: 0
+2021/06/17-01:53:29.032483 16d117000             Options.max_background_jobs: 2
+2021/06/17-01:53:29.032484 16d117000             Options.max_background_compactions: -1
+2021/06/17-01:53:29.032484 16d117000             Options.avoid_flush_during_shutdown: 0
+2021/06/17-01:53:29.032484 16d117000           Options.writable_file_max_buffer_size: 1048576
+2021/06/17-01:53:29.032485 16d117000             Options.delayed_write_rate : 16777216
+2021/06/17-01:53:29.032485 16d117000             Options.max_total_wal_size: 0
+2021/06/17-01:53:29.032486 16d117000             Options.delete_obsolete_files_period_micros: 21600000000
+2021/06/17-01:53:29.032486 16d117000                   Options.stats_dump_period_sec: 600
+2021/06/17-01:53:29.032487 16d117000                 Options.stats_persist_period_sec: 600
+2021/06/17-01:53:29.032487 16d117000                 Options.stats_history_buffer_size: 1048576
+2021/06/17-01:53:29.032488 16d117000                          Options.max_open_files: -1
+2021/06/17-01:53:29.032488 16d117000                          Options.bytes_per_sync: 0
+2021/06/17-01:53:29.032489 16d117000                      Options.wal_bytes_per_sync: 0
+2021/06/17-01:53:29.032489 16d117000                   Options.strict_bytes_per_sync: 0
+2021/06/17-01:53:29.032490 16d117000       Options.compaction_readahead_size: 0
+2021/06/17-01:53:29.032490 16d117000 Compression algorithms supported:
+2021/06/17-01:53:29.032491 16d117000 	kZSTD supported: 0
+2021/06/17-01:53:29.032492 16d117000 	kZlibCompression supported: 0
+2021/06/17-01:53:29.032492 16d117000 	kXpressCompression supported: 0
+2021/06/17-01:53:29.032493 16d117000 	kSnappyCompression supported: 0
+2021/06/17-01:53:29.032493 16d117000 	kZSTDNotFinalCompression supported: 0
+2021/06/17-01:53:29.032494 16d117000 	kLZ4HCCompression supported: 1
+2021/06/17-01:53:29.032494 16d117000 	kLZ4Compression supported: 1
+2021/06/17-01:53:29.032495 16d117000 	kBZip2Compression supported: 0
+2021/06/17-01:53:29.032495 16d117000 Fast CRC32 supported: Not supported on x86
+2021/06/17-01:53:29.032717 16d117000 [db/version_set.cc:4053] Recovering from manifest file: /Users/noelle/Library/Containers/com.goodnotesapp.x/Data/Library/Databases/notes_main.db/MANIFEST-001771
+2021/06/17-01:53:29.032740 16d117000 [db/column_family.cc:482] --------------- Options for column family [default]:
+2021/06/17-01:53:29.032741 16d117000               Options.comparator: leveldb.BytewiseComparator
+2021/06/17-01:53:29.032742 16d117000           Options.merge_operator: None
+2021/06/17-01:53:29.032743 16d117000        Options.compaction_filter: None
+2021/06/17-01:53:29.032743 16d117000        Options.compaction_filter_factory: None
+2021/06/17-01:53:29.032744 16d117000         Options.memtable_factory: SkipListFactory
+2021/06/17-01:53:29.032744 16d117000            Options.table_factory: BlockBasedTable
+2021/06/17-01:53:29.032754 16d117000            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x600003f21f00)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x600000c25558
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0x0
+  persistent_cache: 0x0
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2021/06/17-01:53:29.032768 16d117000        Options.write_buffer_size: 1048576
+2021/06/17-01:53:29.032768 16d117000  Options.max_write_buffer_number: 2
+2021/06/17-01:53:29.032769 16d117000          Options.compression: LZ4
+2021/06/17-01:53:29.032770 16d117000                  Options.bottommost_compression: Disabled
+2021/06/17-01:53:29.032770 16d117000       Options.prefix_extractor: nullptr
+2021/06/17-01:53:29.032771 16d117000   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2021/06/17-01:53:29.032771 16d117000             Options.num_levels: 7
+2021/06/17-01:53:29.032772 16d117000        Options.min_write_buffer_number_to_merge: 1
+2021/06/17-01:53:29.032772 16d117000     Options.max_write_buffer_number_to_maintain: 0
+2021/06/17-01:53:29.032773 16d117000            Options.bottommost_compression_opts.window_bits: -14
+2021/06/17-01:53:29.032773 16d117000                  Options.bottommost_compression_opts.level: 32767
+2021/06/17-01:53:29.032774 16d117000               Options.bottommost_compression_opts.strategy: 0
+2021/06/17-01:53:29.032774 16d117000         Options.bottommost_compression_opts.max_dict_bytes: 0
+2021/06/17-01:53:29.032775 16d117000         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2021/06/17-01:53:29.032775 16d117000                  Options.bottommost_compression_opts.enabled: false
+2021/06/17-01:53:29.032776 16d117000            Options.compression_opts.window_bits: -14
+2021/06/17-01:53:29.032776 16d117000                  Options.compression_opts.level: 32767
+2021/06/17-01:53:29.032777 16d117000               Options.compression_opts.strategy: 0
+2021/06/17-01:53:29.032777 16d117000         Options.compression_opts.max_dict_bytes: 0
+2021/06/17-01:53:29.032778 16d117000         Options.compression_opts.zstd_max_train_bytes: 0
+2021/06/17-01:53:29.032778 16d117000                  Options.compression_opts.enabled: false
+2021/06/17-01:53:29.032779 16d117000      Options.level0_file_num_compaction_trigger: 4
+2021/06/17-01:53:29.032779 16d117000          Options.level0_slowdown_writes_trigger: 20
+2021/06/17-01:53:29.032780 16d117000              Options.level0_stop_writes_trigger: 36
+2021/06/17-01:53:29.032780 16d117000                   Options.target_file_size_base: 67108864
+2021/06/17-01:53:29.032781 16d117000             Options.target_file_size_multiplier: 1
+2021/06/17-01:53:29.032781 16d117000                Options.max_bytes_for_level_base: 268435456
+2021/06/17-01:53:29.032781 16d117000                      Options.snap_refresh_nanos: 0
+2021/06/17-01:53:29.032782 16d117000 Options.level_compaction_dynamic_level_bytes: 0
+2021/06/17-01:53:29.032782 16d117000          Options.max_bytes_for_level_multiplier: 10.000000
+2021/06/17-01:53:29.032783 16d117000 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2021/06/17-01:53:29.032784 16d117000 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2021/06/17-01:53:29.032784 16d117000 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2021/06/17-01:53:29.032785 16d117000 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2021/06/17-01:53:29.032791 16d117000 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2021/06/17-01:53:29.032792 16d117000 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2021/06/17-01:53:29.032792 16d117000 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2021/06/17-01:53:29.032793 16d117000       Options.max_sequential_skip_in_iterations: 8
+2021/06/17-01:53:29.032793 16d117000                    Options.max_compaction_bytes: 1677721600
+2021/06/17-01:53:29.032794 16d117000                        Options.arena_block_size: 131072
+2021/06/17-01:53:29.032794 16d117000   Options.soft_pending_compaction_bytes_limit: 68719476736
+2021/06/17-01:53:29.032795 16d117000   Options.hard_pending_compaction_bytes_limit: 274877906944
+2021/06/17-01:53:29.032795 16d117000       Options.rate_limit_delay_max_milliseconds: 100
+2021/06/17-01:53:29.032796 16d117000                Options.disable_auto_compactions: 0
+2021/06/17-01:53:29.032796 16d117000                        Options.compaction_style: kCompactionStyleLevel
+2021/06/17-01:53:29.032797 16d117000                          Options.compaction_pri: kMinOverlappingRatio
+2021/06/17-01:53:29.032797 16d117000 Options.compaction_options_universal.size_ratio: 1
+2021/06/17-01:53:29.032798 16d117000 Options.compaction_options_universal.min_merge_width: 2
+2021/06/17-01:53:29.032798 16d117000 Options.compaction_options_universal.max_merge_width: 4294967295
+2021/06/17-01:53:29.032799 16d117000 Options.compaction_options_universal.max_size_amplification_percent: 200
+2021/06/17-01:53:29.032799 16d117000 Options.compaction_options_universal.compression_size_percent: -1
+2021/06/17-01:53:29.032800 16d117000 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2021/06/17-01:53:29.032800 16d117000 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2021/06/17-01:53:29.032801 16d117000 Options.compaction_options_fifo.allow_compaction: 0
+2021/06/17-01:53:29.032801 16d117000                   Options.table_properties_collectors: 
+2021/06/17-01:53:29.032802 16d117000                   Options.inplace_update_support: 0
+2021/06/17-01:53:29.032802 16d117000                 Options.inplace_update_num_locks: 10000
+2021/06/17-01:53:29.032803 16d117000               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2021/06/17-01:53:29.032803 16d117000               Options.memtable_whole_key_filtering: 0
+2021/06/17-01:53:29.032804 16d117000   Options.memtable_huge_page_size: 0
+2021/06/17-01:53:29.032804 16d117000                           Options.bloom_locality: 0
+2021/06/17-01:53:29.032805 16d117000                    Options.max_successive_merges: 0
+2021/06/17-01:53:29.032805 16d117000                Options.optimize_filters_for_hits: 0
+2021/06/17-01:53:29.032806 16d117000                Options.paranoid_file_checks: 0
+2021/06/17-01:53:29.032806 16d117000                Options.force_consistency_checks: 0
+2021/06/17-01:53:29.032807 16d117000                Options.report_bg_io_stats: 0
+2021/06/17-01:53:29.032807 16d117000                               Options.ttl: 0
+2021/06/17-01:53:29.032808 16d117000          Options.periodic_compaction_seconds: 0
+2021/06/17-01:53:29.034707 16d117000 [db/version_set.cc:4267] Recovered from manifest file:/Users/noelle/Library/Containers/com.goodnotesapp.x/Data/Library/Databases/notes_main.db/MANIFEST-001771 succeeded,manifest_file_number is 1771, next_file_number is 1773, last_sequence is 173939, log_number is 1770,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2021/06/17-01:53:29.034709 16d117000 [db/version_set.cc:4276] Column family [default] (ID 0), log number is 1770
+2021/06/17-01:53:29.034783 16d117000 EVENT_LOG_v1 {"time_micros": 1623866009034781, "job": 1, "event": "recovery_started", "log_files": [1772]}
+2021/06/17-01:53:29.034784 16d117000 [db/db_impl_open.cc:597] Recovering log #1772 mode 2
+2021/06/17-01:53:29.034812 16d117000 [db/version_set.cc:3546] Creating manifest 1774
+2021/06/17-01:53:29.035135 16d117000 EVENT_LOG_v1 {"time_micros": 1623866009035133, "job": 1, "event": "recovery_finished"}
+2021/06/17-01:53:29.035308 16d117000 [db/db_impl_files.cc:527] [JOB 2] Delete info log file /Users/noelle/Library/Containers/com.goodnotesapp.x/Data/Library/Databases/notes_main.db//LOG.old.1623861914011233
+2021/06/17-01:53:29.035395 16d117000 DB pointer 0x1310d4600
